@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 1000px;
+}
+
+.main {
+    background-color: #ffff;
+    width: 85%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    background-color: #93d79d;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    height: 250px;
+}
+
+.banner1 {
+    position: absolute;
+    width: 35%;
+    height: 250px;
+    background-color: #344A23;
+}
+
+.banner1 h2 {
+    color: #D8E1D4;
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 31px;
+    margin-left: 46px;
+}
+
+.banner1 p {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: #E8B337;
+    margin-left: 47px;
+}
+
+.banner2 {
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    float: right;
+}
+.banner img {
+        width: 100%;
+        height: 250px;
+}
+
+/* about section start */
+.about {
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    height: 326px;
+    background-color: #F6F6F8;
+}
+
+.about1 {
+    width: 43%;
+    height: 326px;
+}
+
+.about2 {
+    width: 57%;
+    height: 326px;
+}
+
+.about2 h5 {
+    color: #183D23;
+    margin-top: 45px;
+    margin-left: 45px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.about2 h6 {
+    font-weight: 100;
+    font-size: 23px;
+    color: #FF9100;
+    margin-top: 7px;
+    margin-left: 45px;
+}
+
+.about2 p {
+    margin-left: 47px;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #616161;
+    width: 72%;
+}
+
+.about2 button {
+    width: 15%;
+    margin-left: 48px;
+    border-radius: 5px;
+    background-color: #183D23;
+    color: #FFFFFF;
+    border-style: none;
+    height: 33px;
+    margin-top: 20px;
+}
+
+.about2 button:hover {
+    background-color: #9292b0;
+    color: black;
+}
+
+.imgabout {
+    width: 75%;
+    height: 296px;
+    margin-left: 68px;
+    margin-top: 16px;
+}
+
+.imgabout img {
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 23px;
+}
+
+.shop {
+    width: 85%;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.shop h3 {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 21px;
+    font-size: 35px;
+}
+
+.shoplogo {
+    margin: 0 auto;
+    width: 45%;
+    height: 90px;
+    display: flex;
+}
+
+.shoplogo1 {
+    width: 30%;
+    text-align: center;
+    height: 100px;
+}
+
+.shoplogo1 h3 {
+    margin-top: 36px;
+    font-size: 23px;
+    font-weight: 100;
+    color: #183D23;
+}
+
+.shoplogo2 {
+    width: 30%;
+    height: 100px;
+}
+
+.shoplogo2 h3 {
+    margin-top: 36px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    color: #FF960D;
+}
+
+.shoplogo3 {
+    width: 40%;
+    height: 100px;
+}
+
+.shoplogo3 h3 {
+    margin-top: 36px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 100;
+    color: #183D23;
+}
+
+.card {
+    width: 67%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height: 371px;
+}
+
+.card1 {
+    width: 100%;
+    height: 300px;
+}
+
+.card2 {
+    width: 100%;
+    height: 300px;
+}
+
+.card3 {
+    width: 100%;
+    height: 300px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.card2 img {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.card3 img {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.flaver {
+    width: 85%;
+    display: flex;
+    height: 266px;
+    margin: 0 auto;
+    background-color: #F6F6F8;
+}
+
+.flaverhead {
+    margin: 0 auto;
+    width: 89%;
+    display: flex;
+    height: 290px;
+}
+
+.flaverhead1 {
+    width: 64%;
+    height: 300px;
+}
+
+.flaverhead1 h2 {
+    margin-top: 39px;
+    color: #FF9100;
+}
+
+.flaverhead1 p {
+    font-size: 18px;
+    color: #616161;
+    margin-top: 20px;
+}
+
+.flaverhead2 {
+    width: 36%;
+    height: 300px;
+}
+
+.flaverhead2 img {
+    width: 93%;
+    margin-top: 26px;
+    border-radius: 20px
+}
+
+.flavertwo {
+    width: 85%;
+    display: flex;
+    height: 292px;
+    margin: 0 auto;
+    background-color: #F6F6F8;
+}
+
+.flavertwo1 {
+    margin: 0 auto;
+    width: 89%;
+    display: flex;
+    height: 290px;
+}
+
+.flavertwo2 {
+    width: 32%;
+    height: 290px;
+}
+
+.flavertwo2 img {
+    width: 100%;
+    margin-top: 22px;
+    border-radius: 13px;
+    width: 100%;
+}
+
+.flavertwo3 {
+    width: 68%;
+    height: 290px;
+}
+
+.flavertwo3 h2 {
+    margin-top: 29px;
+    color: #FF9100;
+    margin-left: 39px;
+}
+
+.flavertwo3 p {
+    margin-left: 13px;
+    font-size: 18px;
+    color: #616161;
+    margin-top: 20px;
+    margin-left: 39px;
+    width: 88%;
+}
+
+.logo {
+    width: 56%;
+    display: flex;
+    margin: 0 auto;
+    height: 207px;
+    margin-top: 31px;
+}
+
+.logo1 {
+    width: 30%;
+    height: 163px;
+}
+
+.logo1 h6 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.logo1 img {
+    width: 30%;
+    margin-left: 78px;
+    margin-top: 20px;
+}
+
+.logo2 {
+    width: 30%;
+    height: 163px;
+}
+
+.logo2 img {
+    width: 30%;
+    margin-left: 78px;
+    margin-top: 20px;
+}
+
+.logo2 h6 {
+    text-align: center;
+    font-size: 22px;
+    width: 94%;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.logo3 {
+    width: 30%;
+    height: 163px;
+}
+
+.logo3 img {
+    width: 30%;
+    margin-left: 78px;
+    margin-top: 20px;
+}
+
+.logo3 h6 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 23px;
+    margin-left: 16px;
+    width: 87%;
+
+}
+
+.pure {
+    width: 85%;
+    height: 280px;
+    background-color: #F6F6F8;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pure h2 {
+    padding-top: 54px;
+    color: #FF9100;
+}
+
+.pure p {
+    padding-top: 19px;
+    font-size: 18px;
+    color: #616161;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 52px;
+    
+    width: 70%;
+    height: 400px;
+}
+
+.footer1 h5 {
+    text-align: center;
+    margin-top: 37px;
+}
+
+.footer2 h5 {
+    text-align: center;
+    margin-top: 51px;
+}
+
+.footer3 h5 {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.footer1 {
+    width: 33%;
+    height: 400px;
+}
+
+.footer1 img {
+    width: 79%;
+    margin-top: 28px;
+}
+
+.footer2 img {
+    width: 86%;
+}
+
+.footer3 img {
+    width: 72%;
+    margin-top: 18px;
+}
+
+.footer2 {
+    width: 33%;
+    height: 400px;
+}
+
+.footer3 {
+    width: 34%;
+    height: 400px;
+}
+
+.footer3 h5 {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.fo1 {
+    width: 20%;
+}
+
+/* media query for mobile device */
+@media only screen and (max-width: 580px) {
+    .main {
+      width: 100%;
+    }
+    .banner{
+        width: 118%;
+        flex-direction: column;
+        height: 317px;
+    }
+    .banner img {
+        width: 100%;
+        height: 317px;
+    }
+
+    .banner1{
+        width: 100%;
+        height: 317px;
+    }
+    .banner2{
+        width: 100%;
+        height: 317px;
+    }
+    .banner2 img{
+        width: 209%;
+    }
+    .about {
+            width: 247%;
+        height: 850px;
+        flex-wrap: wrap;
+    }
+    .about1 {
+        width: 100%;
+  }
+  .about2 button{
+    width: 99px;
+  }
+  .about2 {
+    width: 100%;
+    margin-right: 101px;
+    margin-top: 130px;
+  }
+  .about2 h5{
+    font-size: 52px;
+  }
+  .about2 h6{
+    font-size: 28px;
+  }
+  .about2 p {
+    margin-left: 47px;
+    margin-top: 20px;
+    font-size: 22px;
+    width: 100%;
+  }
+.about2 button {
+    width: 157px;
+    margin-left: 240px;
+    font-size: 30px;
+    margin-top: 46px;
+}
+.shop h3 {
+    width: 186%;
+    margin-left: 91px;
+}
+.shoplogo {
+    margin: 0 auto;
+    width: 90%;
+    height: 90px;
+    display: flex;
+    margin-left: 199px;
+}
+  .shoplogo {
+    margin: 0 auto;
+    width: 82%;
+    height: 90px;
+    display: flex;
+    margin-left: 262px;
+}
+.card {
+    width: 164%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height: 371px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+}
+.card2 img{
+    margin-top: 22px;
+}
+.card3 img{
+    margin-top: 49px;
+}
+.flaver{
+    width: 247%;
+    height: 330px;
+    margin-top: 640px;
+    flex-wrap: wrap;
+}
+    .flavertwo {
+        width: 247%;
+        height: 323px;
+}
+.logo {
+    width: 87%;
+    display: flex;
+    margin: 0 auto;
+    height: 207px;
+    margin-top: 31px;
+    margin-left: 244px;
+}
+.logo1 {
+    width: 41%;
+}
+.logo2{
+    width: 41%;
+}
+.logo3{
+    width: 41%;
+}
+.pure{
+    width: 247%;
+    height: 320px;
+}
+        .footer {
+            flex-direction: column;
+            width: 185%;
+            margin-left: 149px;
+        }
+.footer1{
+    width: 100%;
+}
+.footer1 p{
+    width: 87%;
+}
+.footer2{
+    width: 97%;
+    height: 400px;
+    margin-top: 93px;
+}
+.footer2 h5{
+    margin-right: 50px;
+}
+.footer1 h5{
+    margin-right: 50px;
+}
+.footer2 p{
+     width: 86%;
+}
+.footer3 {
+    width: 116%;
+    height: 400px;
+}
+.footer3 h5{
+    margin-right: 113px;
+}
+.footer3 p{
+    width: 70%;
+    text-align: center;
+}
+.footer3 img{
+    margin-top: 92px;
+}
+}
